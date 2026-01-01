@@ -19,6 +19,7 @@ echo -e "${GREEN}Fase 1 completada.${NC}"
 
 ./scripts/02-nvidia.sh
 ./scripts/03-asus.sh
+./scripts/04-boot.sh
 
 echo -e "${GREEN}=== BASE DEL SISTEMA INSTALADA ===${NC}"
 echo "Por favor reinicia el sistema antes de continuar con la instalación de Hyprland/Dotfiles para cargar los drivers de Nvidia correctamente."
