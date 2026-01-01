@@ -10,6 +10,7 @@ echo -e "${BLUE}### Iniciando instalación automática para Asus ROG G16... ###$
 chmod +x scripts/*.sh
 
 ./scripts/00-yay.sh
+./scripts/01-repos.sh
 
 #echo -e "${GREEN}Instalando paquetes generales desde packages/general.txt...${NC}"
 #yay -S --needed --noconfirm - < packages/general.txt
